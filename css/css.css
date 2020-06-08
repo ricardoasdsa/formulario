@@ -1,0 +1,74 @@
+* {
+    margin:0px;
+    padding:0px;
+    background-image: url(../img/1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+#formu{
+    width: 480px;
+    height: 510px;
+    padding: 15px;  
+    position: relative;
+    top: 200px;
+    left: 400px;
+    background: blanchedalmond;
+    border-color: orange red saddlebrown green;
+    border-width: 10px;
+    border-style: solid;
+    
+    transition: 0.8s;
+    
+
+
+}
+#formu:hover{
+    border-color: saddlebrown green orange red;
+     transform: scale(1.01000000 );    
+}
+label.til{
+    color: Goldenrod;
+    font: small-caps 100%/200% serif;
+    font-size: 25px;
+}
+input.ema{
+    background: lightcyan;
+    height: 45px;
+    width: 440px;
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  input.em{
+      color: black;
+    margin: 15px;
+    background: lightcyan;
+    height: 45px;
+    width: 200px;
+    border: PowderBlue 5px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    left: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    background: lightcyan;
+    padding: 8px 60px;
+    border: PowderBlue 5px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#esasimen{
+    overflow: hidden;
+}
+
